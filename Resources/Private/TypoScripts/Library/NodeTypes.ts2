@@ -6,7 +6,7 @@ prototype(Ttree.Oembed:OEmbedConsumer) {
 }
 
 prototype(Ttree.Oembed:Resource) >
-prototype(Ttree.Oembed:Resource) < prototype(TYPO3.Neos:Template) {
+prototype(Ttree.Oembed:Resource) < prototype(TYPO3.Neos:Content) {
 	templatePath = 'resource://Ttree.Oembed/Private/Templates/TypoScript/Resource.html'
 
 	attributes.itemscope = 'itemscope'
